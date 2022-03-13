@@ -1,0 +1,5 @@
+mixin inst-post(posts)
+    each item in posts
+        a(href= item.link class= 'inst-post__link')
+            .inst-post__img
+                img(src= item.img)

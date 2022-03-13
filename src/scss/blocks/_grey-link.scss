@@ -1,0 +1,8 @@
+.grey-link {
+    color: $grey-text-color;
+    transition: color 0.2s ease-in;
+
+    &:hover {
+        color: $main-text-color;
+    }
+}

@@ -1,0 +1,44 @@
+.header {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid $grey-color;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__button-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .header__search-wrapper {
+        margin-right: 40px;
+    }
+}
+
+.header__search-wrapper {
+    width: 28px;
+    height: 28px;
+    transition: opacity 0.2s ease-in;
+
+    &:hover {
+        opacity: 0.5;
+    }
+
+    img {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+.header__title {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 38px;
+    color: $main-text-color;
+}

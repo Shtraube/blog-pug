@@ -1,0 +1,37 @@
+.blue-button--round {
+    padding-left: 38px;
+    padding-right: 38px;
+    background-color: $button-color;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    line-height: 40px;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        background-color: $grey-color;
+        color: $button-color;
+    }
+}
+
+.blue-button--square {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: $button-color;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    line-height: 44px;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        background-color: $grey-color;
+        color: $button-color;
+    }
+}

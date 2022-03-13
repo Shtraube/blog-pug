@@ -1,0 +1,5 @@
+mixin socials(elements, type)
+    .socials-row(class= type)
+        each item in elements
+            a(href= item.link)
+                img(src= item.img)

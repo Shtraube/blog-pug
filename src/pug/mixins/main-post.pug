@@ -1,0 +1,13 @@
+mixin main-post(posts)
+    include ../mixins/blue-button
+    include ../mixins/socials
+    each item in posts
+        .main-post
+            a(href= item.link class= 'main-post__title') #{item.title}
+            h3 #{item.descr}
+            .main-post__img
+                img(src= item.img)
+            p #{item.text}
+            .main-post__buttons
+                +blue-button('#', 'Read more', 'blue-button--square')
+                +socials(elementsPost, 'socials--post')

@@ -1,0 +1,10 @@
+mixin nav-page(pages)
+    .nav-page
+        .nav-page__buttons
+            each item in pages
+                if item.cssClass
+                    a(href= item.link class= item.cssClass)= item.num
+                else
+                    a(href= item.link)= item.num
+        .nav-page__olds
+            a(href= '#')= 'older posts'

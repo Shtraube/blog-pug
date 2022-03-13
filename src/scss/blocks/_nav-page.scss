@@ -1,0 +1,46 @@
+.nav-page {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    a {
+        margin-right: 15px;
+        font-size: 18px;
+        font-weight: 700;
+        color: $main-text-color;
+        transition: color 0.2s ease-in;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+
+        &.selected-page {
+            color: #e84c50;
+        }
+
+        &:hover {
+            color: $grey-text-color;
+        }
+    }
+}
+
+.nav-page__olds {
+    position: absolute;
+    top: 40;
+    right: 0;
+}
+
+.nav-page__olds a{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: $main-text-color;
+    transition: color 0.2s ease-in;
+
+    &:hover {
+        color: $grey-text-color;
+    }
+}
+

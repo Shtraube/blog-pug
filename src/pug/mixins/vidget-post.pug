@@ -1,0 +1,8 @@
+mixin vidget-post(posts)
+    each item in posts
+        a(href= item.link class= 'vidget-post__link')
+            .vidget-post
+                .vidget-post__img
+                    img(src= item.img)
+                h2 #{item.title}
+                h3 #{item.descr}

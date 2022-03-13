@@ -1,0 +1,19 @@
+.inst-post__link {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid $grey-color;
+    transition: opacity 0.2s ease-in;
+
+    &:hover {
+        opacity: 0.75;
+    }
+}
+
+.inst-post {
+
+}
+
+.inst-post__img {
+
+}

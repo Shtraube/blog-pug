@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: $grey-text-color;
+    background-color: #dde2e7;
+}
+
+.footer__main-block {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    font-size: 16px;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: left;
+
+    a:first-of-type {
+        margin-bottom: 10px;
+    }
+}
+
+.footer__column-socials {
+    width: 270px;
+}
+
+.footer__copyright {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background-color: #e8ebee;
+    text-align: center;
+    font-size: 14px;
+}
